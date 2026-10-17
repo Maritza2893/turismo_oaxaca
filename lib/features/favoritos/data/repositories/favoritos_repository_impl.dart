@@ -1,6 +1,6 @@
 import '../../domain/entities/destino.dart';
-import '../../domain/repositories/destinos_repository.dart';
-import '../datasources/destinos_datasource.dart';
+import '../../domain/repositories/favoritos_repository.dart';
+import '../datasources/favoritos_datasource.dart';
 
 class DestinosRepositoryImpl implements DestinosRepository {
   final DestinosDatasource datasource;
