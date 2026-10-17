@@ -1,0 +1,26 @@
+[
+  {
+    "id": "historia",
+    "nombre": "Historia y arqueología",
+    "icono": "history_edu",
+    "descripcion": "Conoce el legado zapoteca y la arquitectura histórica de Oaxaca."
+  },
+  {
+    "id": "gastronomia",
+    "nombre": "Mercados y gastronomía",
+    "icono": "restaurant",
+    "descripcion": "Explora los sabores y la vida de los mercados tradicionales."
+  },
+  {
+    "id": "naturaleza",
+    "nombre": "Naturaleza y jardines",
+    "icono": "park",
+    "descripcion": "Descubre paisajes, especies vegetales y árboles extraordinarios."
+  },
+  {
+    "id": "artesanias",
+    "nombre": "Pueblos y artesanías",
+    "icono": "palette",
+    "descripcion": "Conoce comunidades de tradición textil y arte popular."
+  }
+]
