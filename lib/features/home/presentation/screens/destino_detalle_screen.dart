@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import '../../domain/entities/destino.dart';
 import '../widgets/destino_hero_header.dart';
@@ -7,14 +8,16 @@ import '../../../../core/widgets/seccion_titulo.dart';
 import '../../../favoritos/presentation/widgets/favorite_button.dart';
 
 class DestinoDetalleScreen extends StatelessWidget {
-  final Destino destino; // Exigimos el destino completo por constructor
+  final Destino destino;
 
-  const DestinoDetalleScreen({super.key, required this.destino});
+  const DestinoDetalleScreen({
+    super.key,
+    required this.destino,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // CustomScrollView permite efectos de scroll como el SliverAppBar
       body: CustomScrollView(
         slivers: [
           DestinoHeroHeader(
@@ -44,13 +47,17 @@ class DestinoDetalleScreen extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 20),
-                  const SeccionTitulo(titulo: 'Acerca del lugar'),
+                  const SeccionTitulo(
+                    titulo: 'Acerca del lugar',
+                  ),
                   Text(
                     destino.descripcion,
                     style: Theme.of(context).textTheme.bodyLarge,
                   ),
                   const SizedBox(height: 20),
-                  const SeccionTitulo(titulo: 'Galería fotográfica'),
+                  const SeccionTitulo(
+                    titulo: 'Galería fotográfica',
+                  ),
                   ImageGallery(
                     imagenes: destino.galeria
                         .where((url) => url != destino.imagenUrl)
@@ -64,3 +71,6 @@ class DestinoDetalleScreen extends StatelessWidget {
         ],
       ),
     );
+  }
+}
+
