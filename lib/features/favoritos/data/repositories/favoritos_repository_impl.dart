@@ -1,12 +1,19 @@
-import '../../domain/entities/destino.dart';
-import '../../domain/repositories/favoritos_repository.dart';
-import '../datasources/favoritos_datasource.dart';
+import '../../../home/domain/entities/destino.dart';
 
-class DestinosRepositoryImpl implements DestinosRepository {
-  final DestinosDatasource datasource;
+/// Mantiene los favoritos en memoria mientras la aplicación está abierta.
+class FavoritosLocalDatasource {
+  FavoritosLocalDatasource._();
+  static final FavoritosLocalDatasource instance = FavoritosLocalDatasource._();
 
-  DestinosRepositoryImpl({required this.datasource});
+  final List<Destino> _favoritos = [];
+  List<Destino> obtenerTodos() => List.unmodifiable(_favoritos);
+  bool contiene(Destino destino) => _favoritos.any((item) => item.id == destino.id);
 
-  @override
-  Future<List<Destino>> obtenerDestinos() => datasource.obtenerDestinos();
+  void alternar(Destino destino) {
+    if (contiene(destino)) {
+      _favoritos.removeWhere((item) => item.id == destino.id);
+    } else {
+      _favoritos.add(destino);
+    }
+  }
 }
