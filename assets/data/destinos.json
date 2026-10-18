@@ -1,26 +1,128 @@
 [
   {
-    "id": "historia",
-    "nombre": "Historia y arqueología",
-    "icono": "history_edu",
-    "descripcion": "Conoce el legado zapoteca y la arquitectura histórica de Oaxaca."
+    "id": "monte-alban",
+    "categoriaId": "historia",
+    "nombre": "Monte Albán",
+    "descripcion": "Antigua capital zapoteca ubicada sobre una elevación de los Valles Centrales. Sus plazas, terrazas y edificios muestran la importancia histórica de esta ciudad prehispánica.",
+    "ubicacion": "Zona arqueológica, a unos 8 km de Oaxaca de Juárez",
+    "calificacion": 4.9,
+    "imagenUrl": "https://images.unsplash.com/photo-1518638150340-f706e86654de?auto=format&fit=crop&w=1000&q=85",
+    "galeria": [
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "destacado": true
   },
   {
-    "id": "gastronomia",
-    "nombre": "Mercados y gastronomía",
-    "icono": "restaurant",
-    "descripcion": "Explora los sabores y la vida de los mercados tradicionales."
+    "id": "mercado-20-noviembre",
+    "categoriaId": "gastronomia",
+    "nombre": "Mercado 20 de Noviembre",
+    "descripcion": "Mercado tradicional conocido por sus puestos de comida oaxaqueña, carnes asadas, tlayudas, chocolate y otros productos regionales.",
+    "ubicacion": "Centro Histórico, Oaxaca de Juárez",
+    "calificacion": 4.7,
+    "imagenUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85",
+    "galeria": [
+      "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "destacado": true
   },
   {
-    "id": "naturaleza",
-    "nombre": "Naturaleza y jardines",
-    "icono": "park",
-    "descripcion": "Descubre paisajes, especies vegetales y árboles extraordinarios."
+    "id": "hierve-el-agua",
+    "categoriaId": "naturaleza",
+    "nombre": "Hierve el Agua",
+    "descripcion": "Paisaje natural famoso por sus formaciones minerales semejantes a cascadas petrificadas y sus pozas con vistas a las montañas.",
+    "ubicacion": "San Lorenzo Albarradas, Oaxaca",
+    "calificacion": 4.8,
+    "imagenUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1000&q=85",
+    "galeria": [
+      "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1500534623283-312a0f0b4b8b?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "destacado": true
   },
   {
-    "id": "artesanias",
-    "nombre": "Pueblos y artesanías",
-    "icono": "palette",
-    "descripcion": "Conoce comunidades de tradición textil y arte popular."
+    "id": "santo-domingo",
+    "categoriaId": "historia",
+    "nombre": "Templo de Santo Domingo de Guzmán",
+    "descripcion": "Complejo monumental de arquitectura barroca que forma parte de los lugares emblemáticos del centro histórico de Oaxaca.",
+    "ubicacion": "Centro Histórico, Oaxaca de Juárez",
+    "calificacion": 4.9,
+    "imagenUrl": "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?auto=format&fit=crop&w=1000&q=85",
+    "galeria": [
+      "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "destacado": true
+  },
+  {
+    "id": "jardin-etnobotanico",
+    "categoriaId": "naturaleza",
+    "nombre": "Jardín Etnobotánico de Oaxaca",
+    "descripcion": "Jardín que reúne plantas originarias de distintas regiones y climas del estado, mostrando la diversidad botánica oaxaqueña.",
+    "ubicacion": "Detrás del Centro Cultural Santo Domingo, Oaxaca",
+    "calificacion": 4.8,
+    "imagenUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1000&q=85",
+    "galeria": [
+      "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "destacado": false
+  },
+  {
+    "id": "mitla",
+    "categoriaId": "historia",
+    "nombre": "Zona Arqueológica de Mitla",
+    "descripcion": "Sitio arqueológico zapoteca reconocido por sus edificios y sus característicos diseños geométricos en piedra.",
+    "ubicacion": "San Pablo Villa de Mitla, Oaxaca",
+    "calificacion": 4.8,
+    "imagenUrl": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1000&q=85",
+    "galeria": [
+      "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1533158326339-7f3cf2404354?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "destacado": true
+  },
+  {
+    "id": "teotitlan",
+    "categoriaId": "artesanias",
+    "nombre": "Teotitlán del Valle",
+    "descripcion": "Comunidad reconocida por la elaboración de tapetes tejidos en telar y por el uso tradicional de tintes naturales.",
+    "ubicacion": "Teotitlán del Valle, Oaxaca",
+    "calificacion": 4.7,
+    "imagenUrl": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=1000&q=85",
+    "galeria": [
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "destacado": false
+  },
+  {
+    "id": "arbol-tule",
+    "categoriaId": "naturaleza",
+    "nombre": "Árbol del Tule",
+    "descripcion": "Ahuehuete monumental que destaca por el gran diámetro de su tronco y por ser un atractivo natural del pueblo de Santa María del Tule.",
+    "ubicacion": "Santa María del Tule, Oaxaca",
+    "calificacion": 4.8,
+    "imagenUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=85",
+    "galeria": [
+      "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "destacado": true
+  },
+  {
+    "id": "san-martin-tilcajete",
+    "categoriaId": "artesanias",
+    "nombre": "San Martín Tilcajete",
+    "descripcion": "Pueblo conocido por los talleres de alebrijes, figuras de madera talladas y pintadas a mano que representan animales fantásticos.",
+    "ubicacion": "San Martín Tilcajete, Oaxaca",
+    "calificacion": 4.7,
+    "imagenUrl": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1000&q=85",
+    "galeria": [
+      "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "destacado": false
   }
 ]
