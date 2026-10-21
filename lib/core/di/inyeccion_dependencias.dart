@@ -28,5 +28,5 @@ class InyeccionDependencias {
   late final obtenerDestinosPorCategoria = ObtenerDestinosPorCategoria(_destinosRepository);
   late final obtenerFavoritos = ObtenerFavoritos(_favoritosRepository);
   late final alternarFavorito = AlternarFavorito(_favoritosRepository);
-  late final esFavorito = EsFavorito(_favoritosRepository);
-}
+  late final esFavorito = EsFavorito(_favoritosRepository); 
+}  

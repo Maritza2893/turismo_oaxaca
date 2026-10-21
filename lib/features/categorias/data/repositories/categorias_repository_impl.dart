@@ -10,3 +10,4 @@ class CategoriasRepositoryImpl implements CategoriasRepository {
   @override
   Future<List<Categoria>> obtenerCategorias() => datasource.obtenerCategorias();
 }
+ 
